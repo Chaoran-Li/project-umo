@@ -1,4 +1,6 @@
 @use 'custom';
+@use "sass:map";
+
 
 .image-cropper {
     width: 12.5rem;
@@ -10,4 +12,8 @@
 
   .posts {
     background-color: #EDF7FA;
+  }
+
+  .divider {
+    height: map.get(custom.$spacers, 10);
   }
