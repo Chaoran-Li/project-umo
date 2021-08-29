@@ -4,7 +4,7 @@
   "description": "My first web project(using bootstrap v5 and Sass)",
   "main": "index.js",
   "scripts": {
-    "compile:sass":"sass --watch scss:assets/css"
+    "compile:sass": "sass --watch scss:assets/css"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "autoprefixer": "^10.3.1",
     "bootstrap": "^5.1.0",
+    "bootstrap-icons": "^1.5.0",
     "postcss-cli": "^8.3.1"
   }
 }
